@@ -1,0 +1,5 @@
+{
+  "environment": "QA",
+  "baseUrl": "https://qa.example.com",
+  "browser": "chrome"
+}

@@ -1,0 +1,5 @@
+TestCaseID,Module,Scenario,ExpectedResult,Priority
+TC_E2E_001,Login,Valid Login,User logged in successfully,High
+TC_E2E_002,Orders,Create Order,Order created successfully,High
+TC_E2E_003,Payments,Successful Payment,Payment processed successfully,Critical
+TC_E2E_004,Notifications,Email Trigger,Email notification sent,Medium
