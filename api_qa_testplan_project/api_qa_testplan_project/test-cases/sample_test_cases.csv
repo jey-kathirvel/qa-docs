@@ -1,0 +1,6 @@
+
+Test Case ID,Module,Scenario,Steps,Expected Result,Priority
+TC_API_001,Authentication,Valid Login,Send valid credentials,200 OK with token,High
+TC_API_002,Authentication,Invalid Login,Send invalid credentials,401 Unauthorized,High
+TC_API_003,User API,Create User,Send valid payload,User created successfully,High
+TC_API_004,Transaction API,Duplicate Transaction,Submit duplicate request,409 Conflict,Medium

@@ -1,0 +1,7 @@
+
+{
+  "baseUrl": "https://qa-api.example.com",
+  "username": "testuser",
+  "password": "password",
+  "token": ""
+}
