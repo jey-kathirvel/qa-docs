@@ -1,0 +1,6 @@
+Thread Group
+Users: 1000
+Ramp-Up: 300 sec
+
+HTTP Request:
+GET /api/login

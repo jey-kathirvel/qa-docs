@@ -1,0 +1,4 @@
+Scenario,Users,Duration,SLA
+Login API,5000,60 mins,<2 sec
+Search API,10000,120 mins,<3 sec
+Payment API,2000,45 mins,<2 sec

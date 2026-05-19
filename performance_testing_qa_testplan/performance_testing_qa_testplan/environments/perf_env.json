@@ -1,0 +1,5 @@
+{
+  "environment": "PERF",
+  "baseUrl": "https://perf.example.com",
+  "users": 5000
+}
