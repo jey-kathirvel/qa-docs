@@ -1,0 +1,108 @@
+# Sprint Automation Coverage Report
+
+## 1. Sprint Overview
+
+- **Project:** [Project Name]  
+- **Sprint:** [Sprint 21]  
+- **Dates:** [2026‑05‑18 → 2026‑06‑01]  
+- **Report Owner:** [QA / Automation Engineer Name]  
+- **Report Date:** [2026‑05‑21]  
+
+---
+
+## 2. Overall Automation Coverage
+
+| Metric                                   | Value |
+|------------------------------------------|-------|
+| Total planned test cases (manual)        | X     |
+| Total automated test cases               | X     |
+| Automation coverage (automated / total)  | X%    |
+| Smoke tests automated                    | Yes / No |
+| Critical‑flow tests automated            | Yes / No |
+| New automation scripts added this sprint | X     |
+
+---
+
+## 3. Automation Coverage by Module
+
+| Module / Feature        | Manual Test Cases | Automated Test Cases | Automation % | Notes |
+|-------------------------|-------------------|----------------------|-------------|-------|
+| Login & Auth            | X                 | X                    | X%          | [e.g., “2P tests added”] |
+| Checkout Flow           | X                 | X                    | X%          | [e.g., “Smoke + key flows covered”] |
+| User Profile            | X                 | X                    | X%          | [e.g., “Profile save + display”] |
+| Admin Dashboard         | X                 | X                    | X%          | [e.g., “Mostly manual”] |
+| API Endpoints           | X                 | X                    | X%          | [e.g., “80% core APIs automated”] |
+
+---
+
+## 4. Automation Execution Summary
+
+### 4.1 Execution Results
+
+| Type                    | Total | Passed | Failed | Skipped | Stability % |
+|-------------------------|-------|--------|--------|---------|-------------|
+| UI E2E                  | X     | X      | X      | X       | X%          |
+| API / Integration       | X     | X      | X      | X       | X%          |
+| Component / Unit        | X     | X      | X      | X       | X%          |
+| Smoke suite             | X     | X      | X      | X       | X%          |
+
+- **Stability notes:**  
+  - [e.g., “10% UI failures due to flaky locators; under investigation.”]  
+
+### 4.2 Execution Frequency
+
+- Runs per day on CI: [X]  
+- Triggered on: [PR, every merge, nightly]  
+- Avg execution time per run: [X] minutes  
+
+---
+
+## 5. What Was Automated This Sprint
+
+- [ ] New critical user journey: [e.g., “Guest checkout on mobile”]  
+- [ ] Regression pack for [Module X]  
+- [ ] API contract / contract tests for [Endpoint X]  
+- [ ] Data‑driven test cases for [Form / Search]  
+- [ ] Any existing flaky tests refactored or stabilized  
+
+---
+
+## 6. Gaps & Improvement Areas
+
+- **Low‑coverage areas:**  
+  - [e.g., “Mobile‑only flows still 100% manual”]  
+- **Unstable tests:**  
+  - [e.g., “3 UI tests failing intermittently; need locator / timeout review”]  
+- **Missing automation scope:**  
+  - [e.g., “No automated tests for error recovery / offline mode”]  
+- **Tooling / CI improvements:**  
+  - [e.g., “Need parallel execution to reduce suite time”]  
+
+---
+
+## 7. Action Items
+
+| Action Item                                                  | Owner     | Target Sprint | Status |
+|-------------------------------------------------------------|-----------|---------------|--------|
+| Increase automation coverage in Checkout module to ≥ 80%.   | QA / Dev  | Next sprint   | ⏳     |
+| Stabilize 3 flaky UI tests by refactoring locators.         | QA        | Current/Next  | ⏳     |
+| Add API contract tests for 5 core endpoints.                | QA / Dev  | Next sprint   | ⏳     |
+| Enable parallel test execution on CI.                       | DevOps    | Future sprint | ⏳     |
+| Define automation priorities for mobile‑only flows.         | QA Lead   | Ongoing       | ⏳     |
+
+---
+
+## 8. Metrics Trend (Optional Summary)
+
+- Automation coverage last sprint: [X%]  
+- Automation coverage this sprint: [X%]  
+- Change: [↑ / ↓ X%]  
+- Comment: [e.g., “Improved by 15% after adding checkout smoke pack.”]  
+
+---
+
+## 9. Notes & References
+
+- CI/CD Pipeline: [Link]  
+- Test Automation Repo: [Link]  
+- Previous Sprint Coverage Report: [Link]
